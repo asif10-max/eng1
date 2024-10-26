@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+
+    background-color: #efefef;
+}
+
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3b5998;
+    padding: 15px 10%;
+}
+
+.txt-2{
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: #ffffff;
+    margin-right: 45px;
+
+}
+
+.av-r, .av-l{
+
+    display: flex;
+    align-items: center;
+}
+
+.sh-box{
+
+    background: #efefef;
+    width: 300px;
+    border-radius:2px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    
+}
+
+.sh-box img{
+    width: 18px;
+}
+
+.sh-box input{
+
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+
+.deho{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.content {
+  text-align: left;
+  padding: 20px;
+  padding-top: 5px;
+  background-color: #f5f5f5;
+  width: 100%;
+  max-width: 50%;
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+
+
+.text5{
+  font-style: normal;
+  font-size: small;
+  opacity: 95%;
+}
+
+.vd2{
+  margin-top: 15px;
+}
+
+.text3{
+  font-style: normal;
+  font-size: 15px;
+  font-weight: bold;
+  opacity: 50%;
+}
+
+.head{
+  font-size: large;
+  font-weight: bold;
+  opacity: 70%;
+  margin-top: 10px;
+  background-color: #efefef
+}
+
+.tx-2{
+
+  font-weight: bold;
+  font-size: medium;
+  opacity: 50%;
+  margin-top: 10px;
+
+}
+input {
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: #c7c1c1;
+  padding: 5px ;
+  border-radius: 5px;
+  
+}
+
+.t1{
+  
+  font-style: normal;
+  font-size: small;
+  opacity: 95%;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.copyright{
+
+  font-style: normal;
+  font-weight: 550;
+  opacity: 70%;
+  padding: 15px 2%;
+  margin-top: 50px;
+}
+
+.sub2 {
+  position: relative;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+.bn2 {
+  position: absolute;
+  top: 50%; 
+  left: 93%; 
+  transform: translate(-50%, -80%);
+  padding: 8px 2%;
+  background-color: #4267b2;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-weight: 550;
+  font-size: 80%;
+  border-radius: 3px;
+}
